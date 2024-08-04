@@ -27,6 +27,14 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-size: 26px;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 3px;
+    max-width: 150px;
+    text-align: center;
+}
+
 .code {
     font-family: 'Courier New', Courier, monospace;
     border: 1px solid black;
@@ -41,4 +49,10 @@ a {
 
 a:hover {
     color: #0300D3;
+}
+
+hr {
+    height: 2px;
+    background-color: #0377D3;
+    border-color: #0377D3;
 }
