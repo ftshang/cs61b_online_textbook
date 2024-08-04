@@ -1,5 +1,13 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(34, 34, 34);
+    font-size: 22px;
+}
+
+p {
+    padding: 0 20px;
+    text-align: justify;
 }
 
 #preface {
@@ -7,6 +15,15 @@ body {
 }
 
 h1 {
+    text-align: center;
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 30px;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 3px;
+    max-width: 450px;
     text-align: center;
 }
 
