@@ -80,6 +80,44 @@
             along by typing everything out, you'll need to use a text editor installed on your comptuer instead of <span
                 class="code">vim</span>.
         </p>
+
+        <img src="assets/intro_terminal.png" alt="creating initial files" />
+
+        <div>
+            <p>Now we have four recipes, two for tofu, and two for seitan. To set up our git repository to store the
+                histories
+                of our recipes as they evolve, we'd use the following commands:
+            </p>
+            <div class="outside-term">
+                <div class="terminal-code">
+                    <span>$ cd /users/sandra/recipes</span>
+                    <br />
+                    <span>$ git init</span>
+                </div>
+            </div>
+        </div>
+
+        <p>
+            What <span class="code">git init</span> does is tells the git version control system that we want to track
+            the history of the
+            current directory, in the case <span class="code">/users/sandra/recipes</span>. However, at this point,
+            <span class="important">nothing is stored in the repositry</span>. It's like we've purchased a safe, but we
+            haven't put anything in it yet.
+        </p>
+        <p>
+            To store everything in the repository, we need to first <span class="code">add</span> files. For example, we
+            might do the following:
+        </p>
+        <div class="outside-term">
+            <div class="terminal-code">
+                <span>$ git add tofu/kung_pao_tofu.txt</span>
+            </div>
+        </div>
+
+        <p>Now here's where git is going to start to seem weird. Even after calling the <span class="code">add</span>
+            command, we <span class="italic">still</span> haven't stored our recipe in the repository (i.e. in the
+            safe).
+        </p>
     </div>
 </body>
 

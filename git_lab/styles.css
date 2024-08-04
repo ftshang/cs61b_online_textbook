@@ -56,3 +56,30 @@ hr {
     background-color: #0377D3;
     border-color: #0377D3;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.terminal-code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.outside-term {
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
