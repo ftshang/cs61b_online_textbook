@@ -1,0 +1,27 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#preface {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+a {
+    color: #0377D3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0300D3;
+}
